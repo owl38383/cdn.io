@@ -1,4 +1,6 @@
-DOMAIN,*.tktn.be,Talkatone
+DOMAIN,tktn.be,Talkatone
+DOMAIN-SUFFIX,tktn.be,Talkatone
+DOMAIN-KEYWORD,tktn.be,Talkatone
 IP-CIDR,50.117.27.0/24,Talkatone
 IP-CIDR,69.46.75.0/24,Talkatone
 IP-CIDR,205.164.56.29/24,Talkatone
