@@ -1,1 +1,11 @@
-
+#!name=小熊油耗VIP
+#!desc=小熊油耗VIP解锁
+#!homepage=https://github.com/owl38383
+#!author= owl38383
+#!icon=https://raw.githubusercontent.com/owl38383/Loon/xiaoxiongyouhao.png
+[MITM]
+hostname=*.xiaoxiongyouhao.*
+[Script]
+http-response ^http[s]?:\/\/www\.(xiaoxiongyouhao)\.(com|cn)\/api\/vip\/index\.php\?a\=query_membership*$ requires-body=1,script-path=https://raw.githubusercontent.com/owl38383/Loon/xiaoxiongyouhao.js
+[URL Rewrite]
+^https:\/\/ad\.caiyunapp\.com\/ reject
