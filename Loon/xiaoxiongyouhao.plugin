@@ -6,7 +6,7 @@
 [MITM]
 hostname=*.xiaoxiongyouhao.*
 [Script]
-http-response ^http[s]?:\/\/www\.(xiaoxiongyouhao)\.(com|cn)\/api\/vip\/index\.php\?a\=query_membership*$ script-path=https://raw.githubusercontent.com/owl38383/Loon/xiaoxiongyouhao.js requires-body = true, 
+http-response ^http[s]?:\/\/www\.(xiaoxiongyouhao)\.(com|cn)\/api\/vip\/index\.php\?a\=query_membership*$ script-path=https://raw.githubusercontent.com/owl38383/Loon/xiaoxiongyouhao.js,requires-body = true, 
 argument=("vip_state")\s?:\s?"(.+?)"->$1: "2"&("vip_valid_till_date")\s?:\s?"(.+?)"->$1: "2099\u5e7406\u670809\u65e5", tag = 小熊油耗VIP解锁
 
 [URL Rewrite]
