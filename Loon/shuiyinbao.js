@@ -14,7 +14,7 @@ let vipInfo = {
         "typeName": "永久会员",
         "userSign": "406_LkgLLsg"
     }
-}
+};
 obj.content.waterVipInfo = vipInfo;
 obj.content.qrCarVipInfo = vipInfo;
 obj.content.qimingVipInfo = vipInfo;
