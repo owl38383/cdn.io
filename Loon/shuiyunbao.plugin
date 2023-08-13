@@ -4,9 +4,9 @@
 #!author= owl38383
 #!icon=https://raw.githubusercontent.com/owl38383/cdn.io/main/Loon/xiaoxiongyouhao.png
 [MITM]
-hostname=*.watersyba.yunxiaoguo.cn
+hostname=watersyba.yunxiaoguo.cn
 [Script]
-http-response ^https:\/\/watersyba\.yunxiaoguo\.cn\/user\/info script-path=https://raw.githubusercontent.com/owl38383/cdn.io/main/Loon/shuiyinbao.js,requires-body=true, tag=水印宝解锁
+http-response ^https:\/\/watersyba\.yunxiaoguo\.cn\/user\/info script-path=https://raw.githubusercontent.com/owl38383/cdn.io/main/Loon/shuiyinbao.js, requires-body=true, timeout=10, tag=水印宝解锁
 
 [URL Rewrite]
 ^https:\/\/watersyba\.yunxiaoguo\.cn\/ reject
