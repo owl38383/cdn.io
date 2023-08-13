@@ -1,0 +1,12 @@
+#!name=水印宝解锁
+#!desc=水印宝解锁
+#!homepage=https://github.com/owl38383
+#!author= owl38383
+#!icon=https://raw.githubusercontent.com/owl38383/cdn.io/main/Loon/xiaoxiongyouhao.png
+[MITM]
+hostname=*.xiaoxiongyouhao.com
+[Script]
+http-response ^http[s]?:\/\/www\.(xiaoxiongyouhao)\.(com|cn)\/api\/vip\/index\.php\?a\=query_membership* script-path=https://raw.githubusercontent.com/owl38383/cdn.io/main/Loon/xiaoxiongyouhao.js,requires-body = true, tag = 小熊油耗VIP解锁
+
+[URL Rewrite]
+^https:\/\.xiaoxiongyouhao\.com\/ reject
