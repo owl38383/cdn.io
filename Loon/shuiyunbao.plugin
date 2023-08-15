@@ -2,7 +2,7 @@
 #!desc=水印宝解锁
 #!homepage=https://github.com/owl38383
 #!author= owl38383
-#!icon=https://raw.githubusercontent.com/owl38383/cdn.io/main/Loon/xiaoxiongyouhao.png
+#!icon=https://raw.githubusercontent.com/owl38383/cdn.io/main/Loon/shuiyinbao.jpg
 [MITM]
 hostname=*.yunxiaoguo.cn
 [Script]
