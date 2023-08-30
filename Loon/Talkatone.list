@@ -6,3 +6,8 @@ IP-CIDR,69.46.75.0/24
 IP-CIDR,205.164.56.0/24
 #UDP 语音电话
 IP-CIDR,63.251.124.0/24
+DOMAIN,truste.com
+DOMAIN-SUFFIX,truste.com
+DOMAIN-KEYWORD,truste.com
+DOMAIN-SUFFIX,flurry.com
+DOMAIN-SUFFIX,pubnative.net
