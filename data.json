@@ -1,0 +1,280 @@
+{
+  "picBed": {
+    "current": "qiniu",
+    "uploader": "qiniu",
+    "smms": {
+      "token": ""
+    },
+    "list": [
+      {
+        "type": "tcyun",
+        "name": "腾讯云COS",
+        "visible": false
+      },
+      {
+        "type": "aliyun",
+        "name": "阿里云OSS",
+        "visible": false
+      },
+      {
+        "type": "smms",
+        "name": "SM.MS",
+        "visible": false
+      },
+      {
+        "type": "github",
+        "name": "GitHub",
+        "visible": false
+      },
+      {
+        "type": "qiniu",
+        "name": "七牛云",
+        "visible": true
+      },
+      {
+        "type": "imgur",
+        "name": "Imgur",
+        "visible": false
+      },
+      {
+        "type": "upyun",
+        "name": "又拍云",
+        "visible": false
+      },
+      {
+        "type": "webdavplist",
+        "name": "WebDAV",
+        "visible": false
+      },
+      {
+        "type": "local",
+        "name": "本地上传",
+        "visible": false
+      },
+      {
+        "type": "sftpplist",
+        "name": "内置SFTP",
+        "visible": false
+      },
+      {
+        "type": "telegraphplist",
+        "name": "Telegraph",
+        "visible": false
+      },
+      {
+        "type": "piclist",
+        "name": "PicList",
+        "visible": false
+      }
+    ],
+    "github": {
+      "_configName": "Default",
+      "_id": "5063578b-f9f2-4c2c-884e-365cb0f33db7",
+      "_createdAt": 1681264339821,
+      "_updatedAt": 1681264434779,
+      "repo": "owl38383/cdn.io",
+      "branch": "main",
+      "token": "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",
+      "path": "file/",
+      "customUrl": "https://cdn.jsdelivr.net/gh/owl38383/cdn.io@main"
+    },
+    "qiniu": {
+      "_configName": "Default",
+      "_id": "a11325f9-a5af-4c49-8a91-fa57e3675875",
+      "_createdAt": 1681264353203,
+      "_updatedAt": 1698738281433,
+      "accessKey": "1Xl2QpVlFMqep7tY81AspCv8WSw29fjKPaeNmoaF",
+      "secretKey": "CPb8WwcFmE-jIHjRcwRLO74VlwbzpjjHcwM8EqBe",
+      "bucket": "cronbug",
+      "url": "https://file.mbad.top",
+      "area": "cn-east-2",
+      "options": "",
+      "path": "file/"
+    },
+    "local": {
+      "_configName": "Default",
+      "_id": "7748269a-c4b2-4ccf-95de-600dfc48f6e1",
+      "_createdAt": 1699340381785,
+      "_updatedAt": 1699340381785
+    },
+    "sftpplist": {
+      "_configName": "Default",
+      "_id": "3d629877-d526-4e7d-a071-30e88e28459c",
+      "_createdAt": 1699340383797,
+      "_updatedAt": 1699340383797
+    },
+    "telegraphplist": {
+      "_configName": "Default",
+      "_id": "9d1aebba-da5e-47d4-8a61-bb804fc229d8",
+      "_createdAt": 1699340385305,
+      "_updatedAt": 1699340385305
+    },
+    "piclist": {
+      "_configName": "Default",
+      "_id": "dd1c9ec5-0259-4578-a729-05cb2621a56a",
+      "_createdAt": 1699340386043,
+      "_updatedAt": 1699340386043
+    }
+  },
+  "settings": {
+    "shortKey": {
+      "picgo:upload": {
+        "enable": true,
+        "key": "CommandOrControl+Shift+P",
+        "name": "upload",
+        "label": "QUICK_UPLOAD"
+      }
+    },
+    "isListeningClipboard": false,
+    "showUpdateTip": false,
+    "server": {
+      "port": 36677,
+      "host": "127.0.0.1",
+      "enable": true
+    },
+    "privacyEnsure": true,
+    "deleteCloudFile": true,
+    "rename": false,
+    "autoRename": false,
+    "autoStart": true,
+    "mainWindowWidth": 800,
+    "mainWindowHeight": 450,
+    "pasteStyle": "URL",
+    "miniWindowPosition": [
+      1820,
+      932
+    ],
+    "useShortUrl": false,
+    "autoImport": true,
+    "autoImportPicBed": [
+      "qiniu"
+    ],
+    "uploadNotification": true,
+    "sync": {
+      "type": "github",
+      "username": "owl38383",
+      "repo": "cdn.io",
+      "branch": "main",
+      "token": "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",
+      "endpoint": "",
+      "proxy": "",
+      "interval": 60
+    }
+  },
+  "needReload": false,
+  "picgoPlugins": {
+    "picgo-plugin-cloudflare-r2": true
+  },
+  "debug": true,
+  "PICGO_ENV": "GUI",
+  "uploader": {
+    "github": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "5063578b-f9f2-4c2c-884e-365cb0f33db7",
+          "_createdAt": 1681264339821,
+          "_updatedAt": 1681264434779,
+          "repo": "owl38383/cdn.io",
+          "branch": "main",
+          "token": "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",
+          "path": "file/",
+          "customUrl": "https://cdn.jsdelivr.net/gh/owl38383/cdn.io@main"
+        }
+      ],
+      "defaultId": "5063578b-f9f2-4c2c-884e-365cb0f33db7"
+    },
+    "qiniu": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "a11325f9-a5af-4c49-8a91-fa57e3675875",
+          "_createdAt": 1681264353203,
+          "_updatedAt": 1698738281433,
+          "accessKey": "1Xl2QpVlFMqep7tY81AspCv8WSw29fjKPaeNmoaF",
+          "secretKey": "CPb8WwcFmE-jIHjRcwRLO74VlwbzpjjHcwM8EqBe",
+          "bucket": "cronbug",
+          "url": "https://file.mbad.top",
+          "area": "cn-east-2",
+          "options": "",
+          "path": "file/"
+        }
+      ],
+      "defaultId": "a11325f9-a5af-4c49-8a91-fa57e3675875"
+    },
+    "local": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "7748269a-c4b2-4ccf-95de-600dfc48f6e1",
+          "_createdAt": 1699340381785,
+          "_updatedAt": 1699340381785
+        }
+      ],
+      "defaultId": "7748269a-c4b2-4ccf-95de-600dfc48f6e1"
+    },
+    "sftpplist": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "3d629877-d526-4e7d-a071-30e88e28459c",
+          "_createdAt": 1699340383797,
+          "_updatedAt": 1699340383797
+        }
+      ],
+      "defaultId": "3d629877-d526-4e7d-a071-30e88e28459c"
+    },
+    "telegraphplist": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "9d1aebba-da5e-47d4-8a61-bb804fc229d8",
+          "_createdAt": 1699340385305,
+          "_updatedAt": 1699340385305
+        }
+      ],
+      "defaultId": "9d1aebba-da5e-47d4-8a61-bb804fc229d8"
+    },
+    "piclist": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "dd1c9ec5-0259-4578-a729-05cb2621a56a",
+          "_createdAt": 1699340386043,
+          "_updatedAt": 1699340386043
+        }
+      ],
+      "defaultId": "dd1c9ec5-0259-4578-a729-05cb2621a56a"
+    }
+  },
+  "buildIn": {
+    "compress": {
+      "quality": 100,
+      "isConvert": false,
+      "convertFormat": "jpg",
+      "isReSize": false,
+      "reSizeWidth": 500,
+      "reSizeHeight": 500,
+      "skipReSizeOfSmallImg": false,
+      "isReSizeByPercent": false,
+      "reSizePercent": 50,
+      "isRotate": false,
+      "rotateDegree": 0,
+      "isRemoveExif": true,
+      "isFlip": false,
+      "isFlop": false
+    },
+    "watermark": {
+      "isAddWatermark": true,
+      "watermarkType": "text",
+      "isFullScreenWatermark": false,
+      "watermarkDegree": 0,
+      "watermarkText": "mbad.top",
+      "watermarkFontPath": "",
+      "watermarkScaleRatio": 0.15,
+      "watermarkColor": "#CCCCCC73",
+      "watermarkImagePath": "",
+      "watermarkPosition": "east"
+    }
+  }
+}
