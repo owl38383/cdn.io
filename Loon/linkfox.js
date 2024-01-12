@@ -163,5 +163,5 @@ let vip = {
     "lastVIPExpirationTime": 4071903957000
 }
 
-obj = Object.assign(obj,vip)
+obj = Object.assign(obj.data,vip)
 $done({ body: JSON.stringify(obj)});
