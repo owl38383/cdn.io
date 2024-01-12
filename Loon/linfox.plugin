@@ -1,1 +1,13 @@
+#!name=LinkFoxVIP
+#!desc=LinkFoxVIP解锁
+#!homepage=https://github.com/owl38383
+#!author= owl38383
+#!icon=https://raw.githubusercontent.com/owl38383/cdn.io/main/Loon/xiaoxiongyouhao.png
+[MITM]
+hostname=*.linkfox.com
+[Script]
+https://api.linkfox.com/order/v1/plan/member/current
+http-response ^http[s]?:\/\/api\.(linkfox)\.(com|cn)\/order\/v1\/plan\/member\/current script-path=https://raw.githubusercontent.com/owl38383/cdn.io/main/Loon/linkfox.js,requires-body = true, tag = 小熊油耗VIP解锁
 
+[URL Rewrite]
+^https:\/\/api\.linkfox\.com\/ reject
