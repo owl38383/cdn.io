@@ -1,0 +1,11 @@
+#!name=全球潮汐VIP
+#!desc=全球潮汐VIP解锁
+#!homepage=https://github.com/owl38383
+#!author= owl38383
+#!icon=https://raw.githubusercontent.com/owl38383/cdn.io/main/Loon/xiaoxiongyouhao.png
+[MITM]
+hostname=*.catches.com
+[Script]
+http-response ^http[s]?:\/\/g\.(catches)\.(com|cn)\/v1\/user\?method\=userInfo* script-path=https://raw.githubusercontent.com/owl38383/cdn.io/main/Loon/quanqiuchaoxi.js,requires-body = true, tag = 全球潮汐VIP
+
+[URL Rewrite]
